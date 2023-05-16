@@ -195,4 +195,4 @@ function addTask(e){
 
 }
 butt.addEventListener("click",addProject);
-    alert(butt.addEventListener("click",addProject).value);
+    console.log(butt.addEventListener("click",addProject).value);
