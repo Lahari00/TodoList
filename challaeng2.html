@@ -9,7 +9,7 @@
 </head>
 
 
-<body>
+<body style='overflow-y: hidden;margin:0px 0px 0px 0px;' >
 
   <div class="flex-container-1">
     <div><img src="C:\Users\B LAHARI\Downloads\download.png" class="img1"></div>
@@ -17,11 +17,14 @@
   </div>
   <div id="two" class="flex-container-7">
        
-        <ul id="parentList2">
+        <ul id="parentList2"  class="list-Group2">
          
         </ul>
-       
-       
+        <ul id="parentList3" class="list-Group3">
+        </ul>
+        <ul id="parentList4" class="list-Group4">
+        </ul>
+
        
   </div>
 
@@ -30,14 +33,19 @@
         <img src="C:\Users\B LAHARI\Downloads\Calendarview-423x281-1.png" class="img2">
         <h3 >Inbox</h3> 
       </div>
-      <div class="flex-container-3">
+      <div id="tooday" onclick="addToday()"class="flex-container-3">
         <img src="C:\Users\B LAHARI\Downloads\Calendarview-423x281-1.png"class="img2"> 
         <h3>Today</h3>
       </div>
-      <div class="flex-container-3">
+      <div id="week" onclick="addWeek()"class="flex-container-3">
         <img src="C:\Users\B LAHARI\Downloads\Calendarview-423x281-1.png"class="img2">
         <h3>This week </h3>
       </div>
+      <div id="cmplt" onclick="addCmplt()"class="flex-container-3">
+        <img src="C:\Users\B LAHARI\Downloads\Calendarview-423x281-1.png"class="img2">
+        <h3>Completed </h3>
+      </div>
+
       <div class="flex-container-3">
                 <div id="flex-box-result"></div>
                 <div>
